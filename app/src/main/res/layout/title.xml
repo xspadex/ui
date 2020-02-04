@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E91010">
+
+    <Button
+        android:id="@+id/btn_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="未登录"
+        android:textColor="#fff"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="请输入想搜索的内容"
+        android:background="#fff"
+        android:layout_gravity="bottom"
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="发布"
+        android:textColor="#fff"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>
