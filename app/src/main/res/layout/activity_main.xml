@@ -4,9 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.ui.TitleLayout
+    <ViewStub
+        android:id="@+id/vs_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout="@layout/title_layout"
+        android:inflatedId="@layout/title"/>
+
 
     <TextView
         android:id="@+id/tv0"
